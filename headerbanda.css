@@ -1,0 +1,22 @@
+
+.header {
+    padding: 50px;
+    background-image:url(imagenes/images.jpg) ;
+    background-repeat: no repeat;
+    background-size: cover;
+    text-align: center;
+      color: rgb(66, 17, 17);
+      justify-content: center;
+    
+    }
+  
+    .cajatitulo {
+        background-color: rgba(52, 131, 201, 0.265);
+        gap: 5px;
+        padding: 6px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }

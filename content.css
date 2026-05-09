@@ -1,0 +1,63 @@
+.content {
+     height: 250px;
+width: 100%;
+flex: 1;
+background-color: rgba(3, 3, 3, 0.756);
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-direction: row;
+    overflow: hidden;
+     position: relative;
+}
+.content video {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 0.4;
+}
+.cajabandas {
+    position: relative;
+    background-image: url(imagenes/fotobanda.webp);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    color: white;
+     z-index: 1;
+    
+}
+
+.cajabandas::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(78, 56, 56, 0.616);
+}
+
+.card {
+    position: relative; 
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    
+}
+.card img {
+   transition: transform 0.3s ease;
+   border-radius: 10px;
+    
+   
+
+}
+.card img:hover {
+    transform: scale(1.5);
+    border-radius: 10px;
+     
+}
